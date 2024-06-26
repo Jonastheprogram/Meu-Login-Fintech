@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Tela Login Fintech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <!-- Area para preenchimento de login  -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="login-container">
+            <form class="login-form text-center p-4">
+                <h2 class="text-light mb-4">Login</h2>
+                <div class="form-group input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-transparent border-0 text-light">
+                            <i class="bi bi-person"></i>
+                        </span>
+                    </div>
+
+                    <!-- Login com email ou cpf  -->
+                    <input type="email" id="cpf-email" name="cpf-email" class="form-control bg-transparent " placeholder="Digite seu e-mail ou CPF">
+                </div>
+
+                <!-- Preenchimento de senha  -->
+                <div class="form-group input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-transparent border-0 text-light">
+                            <i class="bi bi-lock"></i>
+                        </span>
+                    </div>
+                    <input type="password" id="senha" name="senha" class="form-control bg-transparent  text-light " placeholder="Senha">
+                </div>
+
+                <!-- Botão para fazer login  -->
+                <button type="submit" class="btn btn-warning btn-block rounded-pill">Login</button>
+
+                <!-- Recuperação de senha ou cadastro  -->
+                <div class="text-center">
+                    <a href="" class="rec-senha">Esqueci minha senha</a>
+                    <span class="text-light mx-2"></span>
+                    <a href="" class="cadastro">Cadastre-se!</a>
+                </div>
+                
+                <!-- Icone de biometria caso seja mobile -->
+                <div class="fingerprint-icon text-warning">
+                    <i class="bi bi-fingerprint"></i>
+                </div>
+
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

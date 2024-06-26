@@ -1,0 +1,83 @@
+
+/*cor do background principal */
+body {
+    background: linear-gradient(to bottom, #ffcc00, #000000); 
+    margin: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Efeito de cor ao passar mouse em cima dos campos de preenchimento */
+input[type="email"]:hover, input[type="password"]:hover {
+    border-color: #ffcc00; 
+    transition: background-color 0.8s ease, border-color 0.3s ease; 
+
+}
+
+/* Mantem o texto digitado em amarelo */
+input[type="email"], [type="password"] {
+    color: #ffcc00;
+    
+}
+
+/* Mantem a borda do preenchimento de login e o texto amarelo ao deixar selecionado */
+input[type="email"]:focus, input[type="password"]:focus {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffbb00;
+    box-shadow: 0 0 2px #ffbb00;
+
+}
+
+/* Cor e tamanho da area de login  */
+.login-container {
+    background-color: #575656be;
+    border-radius: 15px;
+    max-height: 360px;
+    max-width: 340px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+/* Deixa o placeholder em branco e mantem apenas uma linha para os formularios de login  */
+.login-form input{
+    border: none;
+    border-bottom: 2px solid #ffffff; 
+}   
+.login-form input::placeholder {
+    color: #ffffff;
+    
+}
+
+/* Define o tamanho do simbolo de biometria e aumenta ao passar mouse em cima  */
+.bi-fingerprint {
+    font-size:50px;
+    position: relative;
+    top: 200px;
+}
+.bi-fingerprint:hover{
+    font-size: 55px;
+    
+
+}
+/* Efeito de mudança de cor com sombra ao passar o mouse no botão login  */
+.btn:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s;
+    background-color: #ffd900;
+    color: #000000;
+    
+}
+
+/* Cores e posicionamento dos links de recuperação e cadastro com efeito em amarelo ao passar o */
+a{  
+    color: #ffffff;
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+a:hover{
+    color: #ffbb00;
+}
+
+
+
