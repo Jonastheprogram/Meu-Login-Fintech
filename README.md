@@ -1,2 +1,3 @@
 # Protótipo da tela de login do meu Fintech
-Link para visualizar: https://jonastheprogram.github.io/Meu-Login-Fintech/
+# Link para visualizar: https://jonastheprogram.github.io/Meu-Login-Fintech/
+tecnologias utilizadas: HTML e CSS
